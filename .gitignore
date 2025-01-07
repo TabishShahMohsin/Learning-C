@@ -1,3 +1,22 @@
+# Ignore make build files
+Makefile
+*.o
+*.out
+*.exe
+*.so
+*.a
+*.d
+*.elf
+*.map
+*.mod
+*.cmd
+*.ko
+.tmp_versions/
+modules.order
+Module.symvers
+*.dSYM/
+
+
 # Prerequisites
 *.d
 
