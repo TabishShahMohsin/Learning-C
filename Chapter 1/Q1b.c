@@ -6,6 +6,7 @@ int main(){
 	printf("Enter Length and Width of the rectangle:\n");
 
 	scanf("%d%d", &length, &width);
+	// Why writing '&' here? --> in chapter 6
 	// Unfortunately we can't add " Enter length : %d" in scanf, it doesn't support this.
 	// but we can use "%d%d", length, bredth to get 2 variables at one or use to scanfs will work as well.
 	

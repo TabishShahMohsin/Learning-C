@@ -9,7 +9,7 @@ int main(){
 
 
 	for(;i<10;i++)
-		printf("%d * %d = %d\n", n, i+1, n*(i+1));
+		printf("%d * %d = %d\n", n, 10-i, n*(10-i));
 	
 
 	return 0;
