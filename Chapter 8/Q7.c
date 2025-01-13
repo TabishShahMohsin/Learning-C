@@ -3,10 +3,10 @@
 
 int main(){
 
-	char s[]="Tabish";
+	char s[]="Ubcjti";
 
 	for(int i=0; i<strlen(s); i++)
-		*(s+i)=*(s+i)+1;
+		*(s+i)=*(s+i)-1;
 	
 	puts(s);
 	
